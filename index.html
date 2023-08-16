@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLOTHES</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="container" >
+
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.jpg" alt="RedStore" width="165px" /></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        
+                        <li><a href="aboutus/aboutus.html">About</a></li>
+                        <li><a href="login/login.html">Login</a></li>
+                        <li><a href="cart.html"></a>Cart</li>
+                    </ul>
+                </nav>
+                <a id="cart" href="cart.html"></a>
+                <img src="https://i.ibb.co/6XbqwjD/menu.png" width="30px" alt class="menu-icon"
+                    onclick="menutoggle()" />
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>
+                        Give Your Smile <br />
+                        A New Style!
+                    </h1>
+                    <p>
+                        Fashion is not necessarily about labels. It's not about brands. It's about something else that
+                        comes from within you.
+                    </p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn">Explore
+                        Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <div id="slideshow">
+                        <img src="images/hero-2.png" alt="Slide 2" />
+                        <img src="images/hero-1.png" alt="Slide 3" />
+                        <img src="images/banner.png" alt="Slide 4" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories" id="categories">
+        <h2 class="title">Categories</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="#categories"><img src="images/product-12.jpg" alt="" />Mens
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#categories"><img src="images/hero-1.png" alt="" />Womens</a>
+                </div>
+                <div class="col-3">
+                    <a href="#categories"><img src="images/product-14.jpg" alt="" />Kids</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-3.jpg" alt="" /></a>
+                <a href="product_details.html">
+                    <h4>Hoodies</h4>
+                </a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="" />
+                <h4>Tees</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 10.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="" />
+                <h4>Backpack</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>₹ 100.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-21.jpeg" alt="" />
+                <h4>Children Clothes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-31.webp" alt="" />
+                <h4>Distressed Tee</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-32.webp" alt="" />
+                <h4>Levis Tees</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 360.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-33.avif" alt="" />
+                <h4>Cargos Pants</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>₹ 430.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-34.avif" alt="" />
+                <h4>Taditional wear</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 560.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-35.webp" alt="" />
+                <h4>Tees</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 35.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-36.webp" alt="" />
+                <h4>Denim Jeans</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 290.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-37.jpg" alt="" />
+                <h4>Boys Clothes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>₹ 31.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-38.jpg" alt="" />
+                <h4>Girls Clothes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>₹ 150.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/product-bb.jpg" alt="" class="offer-img" />
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on <b>KLOTHES</b></p>
+                    <h1>Eau De Parfum </h1>
+                    <small>Eau de parfum (EDP) is a perfume type that is made with the help of about 30% concentration
+                        of perfume oils. It is known to last for six to eight hours from the time of spray.</small>
+                    <br />
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download App On Play Store</h3>
+                    
+                    <div class="app-logo">
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/logo.jpg" alt="" />
+                   
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById('MenuItems');
+        MenuItems.style.maxHeight = '0px';
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == '0px') {
+                MenuItems.style.maxHeight = '200px';
+            } else {
+                MenuItems.style.maxHeight = '0px';
+            }
+        }
+
+        const slideshow = document.getElementById('slideshow');
+        const images = slideshow.getElementsByTagName('img');
+        let currentIndex = 0;
+
+        function showNextSlide() {
+            images[currentIndex].style.display = 'none';
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].style.display = 'block';
+        }
+
+        setInterval(showNextSlide, 3000);
+
+    </script>
+</body>
+
+</html>
